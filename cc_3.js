@@ -47,3 +47,19 @@ employee.promotionEligible = true;
 
 // Log the updated employee object
 console.log("Updated Employee Record:", employee); 
+
+
+// Task 4: Customer Feedback Records Scenario: Feedback Management 
+
+// Declare array feedback containing three objects, each with properties: customerName, feedbackText, and rating
+let feedback = [ 
+    {customerName: "Le", feedbackText: "Great service and friendly staff!", rating: 5},
+    {customerName: "Lan", feedbackText: "Good experience, but could be faster.", rating: 4},
+    {customerName: "Phong", feedbackText: "The service was okay, but I expected more attention to detail.", rating: 3}
+]; 
+
+// Add a new feedback object to the array
+feedback.push({customerName: "Minh", feedbackText: "Great support! They resolved my issue swiftly.", rating: 5}); 
+
+// Log the updated feedback list
+console.log("Feedback List:", feedback); 
