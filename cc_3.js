@@ -63,3 +63,20 @@ feedback.push({customerName: "Minh", feedbackText: "Great support! They resolved
 
 // Log the updated feedback list
 console.log("Feedback List:", feedback); 
+
+
+// Task 5: Inventory Management System Scenario: Stock Analysis 
+
+// Declare object inventory with properties: itemName, stockCount, and price 
+let inventory = {
+    itemName: "Notebook",
+    stockCount: 23,
+    price: 3.12,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price; 
+    } // Add method calculateTotalValue that returns the total value
+};
+
+// Log inventory details and total value
+console.log("Inventory Details:", inventory);
+console.log("Total Value:", inventory.calculateTotalValue());
